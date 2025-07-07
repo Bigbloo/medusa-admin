@@ -7,16 +7,16 @@ export default function AdminDashboard() {
   const backendUrl = "https://medusa-backend-r6sm.onrender.com"
 
   useEffect(() => {
-    // Redirection immédiate
+    // Redirection immédiate vers l'admin
     const timer = setTimeout(() => {
-      window.location.href = `${backendUrl}/app`
+      window.location.href = `${backendUrl}/admin`
     }, 1000)
 
     return () => clearTimeout(timer)
   }, [])
 
   const handleManualRedirect = () => {
-    window.location.href = `${backendUrl}/app`
+    window.location.href = `${backendUrl}/admin`
   }
 
   return (
@@ -81,7 +81,7 @@ export default function AdminDashboard() {
           fontSize: '14px',
           marginTop: '20px'
         }}>
-          URL: {backendUrl}/app
+          URL: {backendUrl}/admin
         </p>
 
         <style jsx>{`
