@@ -1,0 +1,25 @@
+{
+  "name": "medusa-admin-vercel",
+  "version": "1.0.0",
+  "description": "Medusa Admin Dashboard for Vercel",
+  "scripts": {
+    "dev": "next dev -p 9000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@medusajs/admin": "^2.8.6",
+    "@medusajs/dashboard": "^2.8.6",
+    "@medusajs/js-sdk": "^2.8.6",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
