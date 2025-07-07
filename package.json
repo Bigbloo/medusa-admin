@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@medusajs/admin": "^2.8.6",
-    "@medusajs/dashboard": "^2.8.6",
-    "@medusajs/js-sdk": "^2.8.6",
+    "@medusajs/dashboard": "^2.0.0",
+    "@medusajs/js-sdk": "^2.0.0",
     "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
